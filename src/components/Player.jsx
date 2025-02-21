@@ -10,6 +10,7 @@ function handleEditclick(){
 }
 
 let playerName = <span className="player-name">{name}</span>
+let btnCaption ='Edit'
 
 if(isEditing){
     playerName = <input type="text" requried />
@@ -20,7 +21,7 @@ if(isEditing){
          {playerName}
          <span className="player-symbol">{symbol}</span>
          </span>
-        <button onClick={handleEditclick}>Edit</button>
+        <button onClick={handleEditclick}>{btnCaption}</button>
 </li>
     )
     
