@@ -1,4 +1,4 @@
-const WINNING_COMBINATIONS = [
+export const WINNING_COMBINATIONS = [
   [
     { row: 0, col: 0 },
     { row: 0, col: 1 },
